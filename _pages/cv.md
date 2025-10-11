@@ -1,6 +1,6 @@
 ---
 layout: default
-title: <Your Name> - Curriculum Vitae
+title: Tyler Yao - Curriculum Vitae
 permalink: /cv/
 ---
 ## Curriculum Vitae
@@ -8,7 +8,7 @@ permalink: /cv/
 [Download my CV]({{ "/assets/CV.pdf" | relative_url }}) in PDF format.
 
 
-**Email:** [netID@cornell.edu](mailto:netID@cornell.edu) | | | **Phone:** +123 456 7890
+**Email:** [Tby4netID@cornell.edu](mailto:Tby4@cornell.edu) | | | **Phone:** +509 460 9185
 
 ---
 
