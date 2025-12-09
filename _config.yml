@@ -24,7 +24,7 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-
+        
 collections:
   pages:
     output: true
