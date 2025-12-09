@@ -4,8 +4,6 @@ title: Acuator Lifting Mechanism
 description: Designing a fram to lift max possible weight
 technologies: Tolomatic IMA
 image: /assets/images/acuator.jpg
-image: /assets/images/weightCalculation
-image: /assets/images/Calculations
 
 ---
 
