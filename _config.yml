@@ -13,7 +13,7 @@ title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : Tyler Yao
 description              : Tyler Yao - Projects and CV 
-baseurl                  : "" # Set this to your repo name 
+baseurl                  : "/fa25-portfolio-tby4" 
 
 # Theme and Style
 theme: jekyll-theme-minimal
