@@ -77,15 +77,15 @@ To simplify the thermodynamic analysis, the following assumptions are made:
 
 ## 5. Mass Balance
 For the steady-flow control volume:
-$$ \dot{m}_{in} = \dot{m}_{out} $$
+**m_dot_in = m_dot_out**
 
 Because water is incompressible and flow is continuous:
-$$ \dot{m} = \rho Q $$
-*Where $Q$ is the volumetric flow rate.*
+**m_dot = ρ * Q**
+*(Where Q is the volumetric flow rate)*
 
 ## 6. Energy Balance (First Law) — Steady Flow
-The steady-flow energy equation is given by:
-$$ \dot{Q} - \dot{W} + \dot{m}\left(h_1 + \frac{V_1^2}{2} + gz_1\right) = \dot{m}\left(h_2 + \frac{V_2^2}{2} + gz_2\right) $$
+The steady-flow energy equation:
+**Q_dot - W_dot + m_dot * (h1 + V1²/2 + gz1) = m_dot * (h2 + V2²/2 + gz2)**
 
-For the pump, shaft work is input to the fluid. Rearranging for work input ($\dot{W}_{in}$):
-$$ \dot{W}_{in} \approx \dot{m} \left[ (h_2 - h_1) + \frac{V_2^2 - V_1^2}{2} + g(z_2 - z_1) \right] - \dot{Q} $$
+For the pump, shaft work is input to the fluid, so we define:
+**W_dot_in ≈ m_dot * [ (h2 - h1) + (V2² - V1²)/2 + g(z2 - z1) ] - Q_dot**
