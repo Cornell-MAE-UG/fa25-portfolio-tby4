@@ -27,3 +27,11 @@ Pumps similar to this one are used in many engineering and everyday contexts, in
 *   Aquaculture and hobbyist water circulation
 
 These applications all share the common thermodynamic principle that a pump is a **work-input device** that transfers mechanical work to a fluid to increase its mechanical energy.
+
+## 2. System Diagram and Thermodynamic Analysis
+
+### 2.1 Control Volume Description
+The system is modeled as a **Steady-Flow Control Volume (CV)** enclosing the pump mechanism. The boundary cuts through the inlet pipe (suction side) and the discharge tubing (outlet side), as well as the electrical driveshaft.
+
+![Pump System Schematic](/assets/images/system-diagram.png)
+*Figure 1: Schematic of the pump control volume showing states and energy interactions.*
