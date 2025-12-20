@@ -1,13 +1,29 @@
 ---
 layout: project
-title: Spaceship Design
-description: Just a spaceship that I designed
-technologies: [SolidWorks, Machining]
-image: /assets/images/spaceship-design.jpg
+title: Water Pump Analysis 
+description: This portfolio analyzes a submersible centrifugal water pump used to circulate water in small systems such as aquariums and tabletop fountains. 
+technologies: VIVOSUN Submersible Pump
+image: /assets/images/aquaPump.png
 ---
 
 
-In 2021, NASA asked me to design a spaceship...Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nec accumsan leo. Pellentesque ornare orci enim, vitae vestibulum nibh rutrum in. Donec pharetra risus nec ipsum fringilla, et mattis tortor auctor. Duis tortor ante, posuere ut odio a, scelerisque interdum purus. Aenean faucibus luctus est, sed bibendum tellus. Nulla et magna urna. Morbi a ipsum sollicitudin, rhoncus risus volutpat, ultricies nunc. Quisque mollis finibus ante id imperdiet. Quisque vehicula elit sit amet felis facilisis fermentum.
+## 1. Device Selection and Real-World Context
 
-Aenean tincidunt aliquam arcu, in euismod dui dapibus eu. In placerat, mi et ultrices consequat, quam ligula cursus mauris, in semper neque nibh at est. Maecenas hendrerit dignissim porta. Phasellus nec fringilla dolor. Etiam efficitur nisi sit amet velit pharetra feugiat. Etiam ultrices turpis at leo semper, eleifend scelerisque neque malesuada. Aliquam molestie congue rhoncus. Donec blandit neque dolor, nec tristique mi pretium ac. Mauris tincidunt ullamcorper magna, nec pellentesque mi sagittis quis.
+### 1.1 Device Overview
+The device analyzed in this portfolio is a **VIVOSUN 400 GPH Submersible Pump**, a commercially available small centrifugal pump designed to circulate water in tanks, fountains, and small process loops. According to the manufacturer, this pump is suitable for applications such as aquariums, hydroponic systems, and tabletop water circulation.
 
+**Product reference:**
+[VIVOSUN 400 GPH Submersible Pump Product Page](https://vivosun.com/vivosun-400gph-submersible-pump-for-fish-tank-p58820960379607248-v58820960379607238)
+
+This pump is powered by an electric motor housed within a waterproof casing. The motor drives a centrifugal impeller that increases the mechanical energy of the water, thereby increasing its pressure and allowing it to flow through connected tubing against gravity and friction.
+
+### 1.2 Real-World Examples of Pumps
+Pumps similar to this one are used in many engineering and everyday contexts, including:
+
+*   Building HVAC hydronic loops (circulator pumps)
+*   Municipal and industrial water distribution
+*   Cooling loops in power plants and machinery
+*   Automotive cooling systems
+*   Aquaculture and hobbyist water circulation
+
+These applications all share the common thermodynamic principle that a pump is a **work-input device** that transfers mechanical work to a fluid to increase its mechanical energy.
