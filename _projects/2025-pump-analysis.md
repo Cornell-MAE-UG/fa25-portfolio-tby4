@@ -124,3 +124,9 @@ For normal operation, entropy generation (**S_dot_gen**) is positive due to fric
 To evaluate performance changes, the effect of **restricting the outlet tubing** is considered.
 
 Increasing flow resistance reduces the mass flow rate through the pump and increases losses within the system. As a result, a smaller fraction of the electrical power input contributes to increasing the fluid’s mechanical energy, leading to a **decrease in pump efficiency**. This behavior is consistent with increased irreversibility and entropy generation under higher resistance conditions.
+
+
+
+## 10. Discussion of Assumptions
+
+The pump is treated as operating at steady state with negligible heat transfer in the energy balance. In reality, because the pump is submersible, inefficiencies in the motor and fluid flow are dissipated as thermal energy into the surrounding water. This deviation from ideal assumptions does not significantly affect the primary mechanical energy analysis but explains why efficiency is less than unity.
