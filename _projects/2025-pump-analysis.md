@@ -66,10 +66,10 @@ The Control Volume (CV) is defined as the interior of the pump housing. It encom
 To simplify the thermodynamic analysis, the following assumptions are made:
 
 1.  **Steady-flow operation:** The pump operates continuously; properties at the inlet and outlet do not change with time.
-2.  **Single Inlet / Single Outlet:** There is one mass flow stream entering and one leaving ($\dot{m}_{in} = \dot{m}_{out}$).
-3.  **Incompressible Flow:** Liquid water density is assumed constant ($\rho \approx 1000 \text{ kg/m}^3$).
+2.  **Single Inlet / Single Outlet:** There is one mass flow stream entering and one leaving (**m_dot_in = m_dot_out**).
+3.  **Incompressible Flow:** Liquid water density is assumed constant (**rho ≈ 1000 kg/m³**).
 4.  **Negligible Temperature Rise:** While real pumps generate some heat due to friction, the temperature change of the water is very small and is neglected here.
-5.  **Adiabatic ($\dot{Q} \approx 0$):** Heat transfer to the surroundings is neglected in the primary energy balance calculations because it is small compared to the mechanical work transfer.
+5.  **Adiabatic (Q_dot ≈ 0):** Heat transfer to the surroundings is neglected in the primary energy balance calculations because it is small compared to the mechanical work transfer.
 
 *These assumptions allow us to reduce the complex general energy equation into a solvable form for mechanical work.*
 
@@ -83,9 +83,44 @@ Because water is incompressible and flow is continuous:
 **m_dot = ρ * Q**
 *(Where Q is the volumetric flow rate)*
 
+
+
+
 ## 6. Energy Balance (First Law) — Steady Flow
 The steady-flow energy equation:
 **Q_dot - W_dot + m_dot * (h1 + V1²/2 + gz1) = m_dot * (h2 + V2²/2 + gz2)**
 
 For the pump, shaft work is input to the fluid, so we define:
 **W_dot_in ≈ m_dot * [ (h2 - h1) + (V2² - V1²)/2 + g(z2 - z1) ] - Q_dot**
+
+
+
+## 7. Pump Performance (Efficiency)
+
+Pump performance is characterized using **efficiency**, defined as the ratio of the useful mechanical energy gained by the fluid to the electrical energy supplied to the pump:
+
+**Efficiency (η) = ( m_dot * [ (h2 - h1) + (V2^2 - V1^2)/2 + g(z2 - z1) ] ) / W_dot_elec**
+
+Where:
+*   **m_dot** is the mass flow rate.
+*   **W_dot_elec** is the electrical power input.
+
+This efficiency metric is the key factor used to evaluate how changes in operating conditions affect the overall pump performance.
+
+
+
+## 8. Entropy Balance and Irreversibility
+
+The pump is modeled as a steady-flow control volume. The entropy balance is:
+
+**0 = m_dot * (s1 - s2) + (Q_dot / Tb) + S_dot_gen**
+
+For normal operation, entropy generation (**S_dot_gen**) is positive due to friction, turbulence, and internal losses within the pump. These irreversibilities reduce the fraction of electrical energy converted into useful mechanical energy of the fluid.
+
+
+
+## 9. Change in Operating Conditions
+
+To evaluate performance changes, the effect of **restricting the outlet tubing** is considered.
+
+Increasing flow resistance reduces the mass flow rate through the pump and increases losses within the system. As a result, a smaller fraction of the electrical power input contributes to increasing the fluid’s mechanical energy, leading to a **decrease in pump efficiency**. This behavior is consistent with increased irreversibility and entropy generation under higher resistance conditions.
