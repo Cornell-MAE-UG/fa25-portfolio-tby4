@@ -35,7 +35,9 @@ These applications all share the common thermodynamic principle that a pump is a
 ### 2.1 Control Volume Description
 The system is modeled as a **Steady-Flow Control Volume (CV)** enclosing the pump mechanism. The boundary cuts through the inlet pipe (suction side) and the discharge tubing (outlet side), as well as the electrical driveshaft.
 
-![Pump System Schematic](/assets/images/system-diagram.png)
+![Pump System Schematic](https://cornell-mae-ug.github.io/fa25-portfolio-tby4/assets/images/system-diagram.png)
+
+
 *Figure 1: Schematic of the pump control volume showing states and energy interactions.*
 
 
