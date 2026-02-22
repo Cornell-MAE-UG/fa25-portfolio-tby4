@@ -1,8 +1,3 @@
-<!--
-Compile to PDF (example):
-  pandoc O3_GrapeSoup.md -o O3_GrapeSoup.pdf
--->
-
 ---
 fontsize: 11pt
 geometry: margin=1in
