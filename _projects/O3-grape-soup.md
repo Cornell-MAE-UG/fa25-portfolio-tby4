@@ -10,7 +10,7 @@ image: /assets/images/ClientOutline.jpg
 **Team:** _Grape Soup_  
 **Client(s):** Cornell CALS Extension / E\&J Gallo Winery / National Grape  
 
-## Problem statement (most important)
+## Problem statement 
 
 Spotted lanternflies (SLFs) are harming grape growers and processors in infested U.S. vineyard regions by contaminating mechanically harvested grapes when insects on the vines are harvested along with the fruit. USDA reports about **923,000 bearing acres of grapes** and **5.40 million tons of utilized grape production (2024)** in comparable states, and USDA APHIS reports SLF populations in **19 states plus D.C.** Current harvesting and shaking methods are not selective enough to remove SLFs without also damaging fruit or reducing harvest efficiency, so insects can enter bins and downstream processing. A recent regional grape program report also identifies mechanized harvesting contamination as a specific SLF risk in highly mechanized grape regions.
 
