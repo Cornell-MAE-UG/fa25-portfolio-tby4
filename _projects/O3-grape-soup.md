@@ -1,10 +1,6 @@
 ---
-fontsize: 11pt
-geometry: margin=1in
-papersize: letter
-pagestyle: empty
-header-includes:
-  - \pagenumbering{gobble}
+layout: project
+title: "Open Design Project 3 – Preventing SLF Contamination"
 ---
 
 # Preventing SLF Contamination in Grape Harvests
