@@ -1,6 +1,6 @@
 ---
 layout: project
-title: "Open Design Project 3 – Preventing SLF Contamination"
+title: "Team Grape Soup – Preventing SLF Contamination"
 image: /assets/images/ClientOutline.jpg
 
 ---
