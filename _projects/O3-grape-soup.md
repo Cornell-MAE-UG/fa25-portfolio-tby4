@@ -1,6 +1,6 @@
 ---
 layout: project
-title: Spotted Lanternfly Separation System
+title: MAE2250 Project
 image: /assets/images/slf-cad-model.png
 permalink: /projects/slf-separation/
 ---
