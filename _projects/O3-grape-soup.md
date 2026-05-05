@@ -1,4 +1,3 @@
-
 ---
 layout: project
 title: Spotted Lanternfly Separation System
@@ -20,7 +19,6 @@ A density-based mechanical separation system designed to remove Spotted Lanternf
 - [Client Report](#client-report)
 
 ---
-
 
 
 
