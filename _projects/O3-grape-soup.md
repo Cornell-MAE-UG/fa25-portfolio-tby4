@@ -159,7 +159,7 @@ The system consists of four main subsystems:
 ## Prototype Implementation
 
 <figure>
-  <img src="{{ '/assets/images/slf-first-prototype.jpg' | relative_url }}" alt="First functional prototype" style="width:70%;">
+  <img src="{{ '/assets/images/slf-first-prototype.png' | relative_url }}" alt="First functional prototype" style="width:70%;">
   <figcaption><b>Figure 2:</b> First functional prototype constructed using a plastic container, cardboard paddle system, and taped mounting structure.</figcaption>
 </figure>
 
@@ -280,7 +280,7 @@ These results justified further refinement and development into a more robust an
 ## Final Prototype & Application
 
 <figure>
-  <img src="{{ '/assets/images/slf-final-prototype.jpg' | relative_url }}" alt="Final SLF separation prototype" style="width:70%;">
+  <img src="{{ '/assets/images/slf-final-prototype.jpeg' | relative_url }}" alt="Final SLF separation prototype" style="width:70%;">
   <figcaption><b>Figure 4:</b> Final assembled separation system demonstrating flotation-based SLF removal with integrated paddle mechanism and drainage setup.</figcaption>
 </figure>
 
@@ -296,7 +296,7 @@ We developed a **density-based separation system** designed for integration into
 6. A **rotary paddle mechanism** removes floating SLFs  
 7. Clean grapes exit through a bottom drainage system  
 
-This approach leverages fundamental density differences to achieve selective separation without complex sensing or sorting systems :contentReference[oaicite:0]{index=0}.
+This approach leverages fundamental density differences to achieve selective separation without complex sensing or sorting systems.
 
 ---
 
@@ -322,7 +322,7 @@ Prototype testing validated the effectiveness of the separation system under dif
 - Paddle mechanism successfully interacts only with the surface layer  
 - No grapes were unintentionally removed during testing  
 
-These results meet the target performance criteria of ≥80% removal efficiency and <2% grape loss :contentReference[oaicite:1]{index=1}.
+These results meet the target performance criteria of ≥80% removal efficiency and <2% grape loss.
 
 ---
 
@@ -364,7 +364,7 @@ Key achievements:
 - Reliable mechanical operation  
 - Low system complexity  
 
-This validates the core concept and supports further development toward real-world implementation :contentReference[oaicite:2]{index=2}.
+This validates the core concept and supports further development toward real-world implementation.
 
 ---
 

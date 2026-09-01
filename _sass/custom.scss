@@ -54,7 +54,8 @@ footer {
 }
 
 .container {
-  max-width: 600px;
+  max-width: 760px;
+  padding: 0 20px;
 }
 
 .project-item img {
@@ -101,11 +102,14 @@ footer {
   vertical-align: top;
 }
 
-.project-image {
-  float: left;
-  margin: 20px 25px 25px 0;
-  max-width: 200px;
-  vertical-align: top;
+.project-hero {
+  display: block;
+  width: 100%;
+  max-height: 320px;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 24px;
 }
 
 .inline-image {
@@ -180,15 +184,10 @@ footer {
   transform: scale(1.05); 
 }
 
-.project-image {
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
 .back-arrow {
   display: inline-block;
   font-size: 1.1em;
-  color: #686d85; 
+  color: #686d85;
   text-decoration: none;
   margin-bottom: 1em;
   font-weight: bold;
@@ -196,8 +195,148 @@ footer {
 }
 
 .back-arrow:hover {
-  color: #3a3f58; 
+  color: #3a3f58;
   transform: translateX(-4px);
+}
+
+.back-arrow-bottom {
+  display: block;
+  margin-top: 3em;
+  margin-bottom: 0;
+}
+
+// Project page
+
+.project {
+  background: #fff;
+  border-radius: 14px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+  padding: 32px 40px 48px;
+  margin-bottom: 40px;
+}
+
+.project-header {
+  margin-bottom: 32px;
+
+  h1 {
+    margin-bottom: 10px;
+  }
+}
+
+.project-description {
+  font-size: 1.1em;
+  color: lighten($text-color, 20%);
+  margin-bottom: 14px;
+}
+
+.project-tech {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.9em;
+}
+
+.tech-label {
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  font-size: 0.75em;
+  color: $primary-color;
+  background: rgba($primary-color, 0.1);
+  padding: 4px 10px;
+  border-radius: 20px;
+}
+
+.project-content {
+  h2, h3, h4 {
+    margin-top: 1.8em;
+    margin-bottom: 0.6em;
+  }
+
+  h2 {
+    padding-bottom: 0.3em;
+    border-bottom: 2px solid rgba($primary-color, 0.12);
+  }
+
+  h3 {
+    color: $primary-color;
+  }
+
+  p {
+    margin: 0.9em 0;
+  }
+
+  ul, ol {
+    padding-left: 1.4em;
+    margin: 0.9em 0;
+  }
+
+  li {
+    margin-bottom: 0.4em;
+  }
+
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 1.2em auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  // Standalone italic line right after an image (e.g. "*Figure 1: ...*") reads as a caption
+  p > em:only-child {
+    display: block;
+    text-align: center;
+    font-size: 0.9em;
+    color: lighten($text-color, 25%);
+    margin-top: -0.6em;
+  }
+
+  figure {
+    margin: 1.6em 0;
+    text-align: center;
+
+    img {
+      margin: 0 auto 0.6em;
+    }
+
+    figcaption {
+      font-size: 0.9em;
+      color: lighten($text-color, 25%);
+    }
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1.2em 0;
+    font-size: 0.95em;
+  }
+
+  th, td {
+    text-align: left;
+    padding: 8px 12px;
+    border-bottom: 1px solid rgba($text-color, 0.12);
+  }
+
+  th {
+    background: rgba($primary-color, 0.06);
+  }
+
+  hr {
+    border: none;
+    border-top: 1px solid rgba($text-color, 0.12);
+    margin: 2em 0;
+  }
+
+  blockquote {
+    margin: 1em 0;
+    padding: 0.4em 1.2em;
+    border-left: 4px solid rgba($primary-color, 0.3);
+    color: lighten($text-color, 20%);
+  }
 }
 
 
