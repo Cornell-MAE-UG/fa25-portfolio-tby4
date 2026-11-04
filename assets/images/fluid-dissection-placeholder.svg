@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#e8f1f8"/>
+  <path d="M0 360 Q100 320 200 360 T400 360 T600 360 T800 360 V600 H0 Z" fill="#9cc3e0"/>
+  <path d="M0 420 Q100 380 200 420 T400 420 T600 420 T800 420 V600 H0 Z" fill="#5b9bc9"/>
+  <text x="400" y="220" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="48" font-weight="bold" fill="#1f3b57">Fluid-Mechanical</text>
+  <text x="400" y="280" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="48" font-weight="bold" fill="#1f3b57">Dissection</text>
+  <text x="400" y="520" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="28" fill="#ffffff">Coming soon</text>
+</svg>
