@@ -1,7 +1,7 @@
 ---
 layout: project
-title: Fluid-Mechanical Dissection
-description: A dissection of a real device to explain, through video and analysis, the fluid mechanics that make it work.
+title: "Fluid-Mechanical Dissection: Wind-Powered Strandbeest"
+description: Taking apart a toy model of Theo Jansen's wind-powered Rhinoceros Strandbeest to explain how it turns wind into walking.
 technologies: Coming soon
 image: /assets/images/fluid-dissection-placeholder.svg
 ---
@@ -10,7 +10,9 @@ image: /assets/images/fluid-dissection-placeholder.svg
 
 ## Device Overview
 
-*Coming soon.*
+We are taking apart a toy model of Theo Jansen's **Rhinoceros Strandbeest**, a walking kinetic sculpture powered only by the wind. Wind turns its turbine blades, which drive a crankshaft. The crankshaft moves a set of linkage legs that make the model walk forward. We will look at how the turbine pulls energy out of the wind and how that energy reaches the legs.
+
+**Team Spider (Bin 22):** Marcello Milani, Allen Liu, Nathan Sheng, Tyler Yao, Andrew Liu
 
 ## Dissection
 
